@@ -1,0 +1,135 @@
+import { College } from '../types';
+
+export const collegesData: College[] = [
+  {
+    id: 'dypcet',
+    name: 'D. Y. Patil College of Engineering and Technology',
+    shortName: 'DYPCET',
+    locality: 'Kasaba Bawada',
+    landmark: 'Near Sugar Mill Road, Bawada',
+    latitude: 16.7328,
+    longitude: 74.2464,
+    popularStreams: ['Computer Science', 'AI & Data Science', 'Civil', 'Mechanical', 'Chemical'],
+    establishedYear: 1984,
+    description: 'Premier engineering institution in North Kolhapur, surrounded by student-friendly residential pockets in Bawada, Line Bazaar, and Tarabai Park.',
+    logo: '/images/colleges/dypcet.png'
+  },
+  {
+    id: 'dot-su',
+    name: 'Department of Technology, Shivaji University (DOT)',
+    shortName: 'DOT Shivaji',
+    locality: 'Vidyanagar / University Campus',
+    landmark: 'Old Pune-Bangalore Highway, Vidyanagar',
+    latitude: 16.6784,
+    longitude: 74.2546,
+    popularStreams: ['Computer Science & Tech', 'Electronics', 'Chemical Tech', 'Food Tech'],
+    establishedYear: 2006,
+    description: 'Situated on the lush Shivaji University campus in South-East Kolhapur, adjacent to Ujalaiwadi and Rajarampuri student zones.',
+    logo: '/images/colleges/shivaji-university.png'
+  },
+  {
+    id: 'kitcoek',
+    name: "Kolhapur Institute of Technology's College of Engineering (Autonomous)",
+    shortName: 'KITCoEK',
+    locality: 'Gokul Shirgaon Industrial Area',
+    landmark: 'Pune-Bengaluru Highway, Gokul Shirgaon',
+    latitude: 16.6347,
+    longitude: 74.2818,
+    popularStreams: ['CSE', 'Biotechnology', 'Environmental', 'Electrical', 'Mechanical'],
+    establishedYear: 1983,
+    description: 'Autonomous engineering hub on South National Highway; students typically reside in Gokul Shirgaon, Rajarampuri, or Ujalaiwadi.',
+    logo: '/images/colleges/kitcoek.png'
+  },
+  {
+    id: 'seti-panhala',
+    name: 'Sanjeevan Engineering and Technology Institute',
+    shortName: 'SETI',
+    locality: 'Somwar Peth / Panhala Road',
+    landmark: 'Panhala Foothills, Kolhapur',
+    latitude: 16.8052,
+    longitude: 74.1205,
+    popularStreams: ['Mechanical', 'Civil', 'Computer Engineering', 'Electrical'],
+    establishedYear: 2009,
+    description: 'Engineering campus located on the picturesque scenic Panhala route with dedicated hostel clusters and bus connections from Kolhapur city.',
+    logo: '/images/colleges/seti.png'
+  },
+  {
+    id: 'sgi-atigre',
+    name: 'Sanjay Ghodawat Institutes / University (SGI)',
+    shortName: 'SGI',
+    locality: 'Atigre',
+    landmark: 'Kolhapur-Sangli Highway, Atigre',
+    latitude: 16.7485,
+    longitude: 74.3820,
+    popularStreams: ['CSE', 'AI & ML', 'Aeronautical', 'Civil', 'Mechanical'],
+    establishedYear: 2009,
+    description: 'Expansive modern campus on Kolhapur-Sangli Highway with student hostels, sports facilities, and convenient regional transport.',
+    logo: '/images/colleges/sgi.png'
+  },
+  {
+    id: 'dyp-talsande',
+    name: 'D. Y. Patil Technical Campus, Faculty of Engineering',
+    shortName: 'DYP Talsande',
+    locality: 'Talsande',
+    landmark: 'Warananagar Road, Talsande',
+    latitude: 16.8524,
+    longitude: 74.2890,
+    popularStreams: ['Computer Science', 'Civil', 'Electrical', 'Mechanical'],
+    establishedYear: 2011,
+    description: 'Serene technical education campus in Talsande north of Kolhapur, surrounded by supportive local student homes, messes, and bus transit.',
+    logo: '/images/colleges/dyp-talsande.png'
+  },
+  {
+    id: 'amgoi-vathar',
+    name: 'Ashokrao Mane Group of Institutions (AMGOI)',
+    shortName: 'Ashokrao Mane',
+    locality: 'Vathar Tarf Vadgaon',
+    landmark: 'Kolhapur-Sangli Road, Near Peth Vadgaon',
+    latitude: 16.8320,
+    longitude: 74.3050,
+    popularStreams: ['Computer Science', 'Mechanical', 'Civil', 'Electrical', 'E&TC'],
+    establishedYear: 2008
+    ,
+    description: 'Prominent technical hub near Peth Vadgaon with active student residential clusters and highly affordable budget living in Vathar.',
+    logo: '/images/colleges/ashokrao-mane.png'
+  },
+  {
+    id: 'tkiet-warana',
+    name: 'Tatyasaheb Kore Institute of Engineering and Technology (TKIET)',
+    shortName: 'TKIET',
+    locality: 'Warananagar',
+    landmark: 'Warana Sugar Complex, Warananagar',
+    latitude: 16.8920,
+    longitude: 74.2230,
+    popularStreams: ['Chemical Engineering', 'CSE', 'Civil', 'Mechanical', 'Electronics'],
+    establishedYear: 1983,
+    description: 'Distinguished autonomous technical institute in the famous Warananagar cooperative township with excellent hostels and student messes.',
+    logo: '/images/colleges/tkiet.png'
+  },
+  {
+    id: 'dkte-ichalkaranji',
+    name: "DKTE Society's Textile and Engineering Institute (Autonomous)",
+    shortName: 'DKTE',
+    locality: 'Ichalkaranji',
+    landmark: 'Rajwada / Shivaji Nagar, Ichalkaranji',
+    latitude: 16.6980,
+    longitude: 74.4640,
+    popularStreams: ['Textile Engineering', 'Computer Science', 'AI & Data Science', 'Electronics', 'Mechanical'],
+    establishedYear: 1982,
+    description: 'Pioneering autonomous technical institute in the textile hub of Ichalkaranji, with rich accommodation choices and authentic Khanavali messes.',
+    logo: '/images/colleges/dkte.png'
+  },
+  {
+    id: 'sitcoe-yadrav',
+    name: 'Sharad Institute of Technology College of Engineering (SITCOE)',
+    shortName: 'Sharad Institute',
+    locality: 'Yadrav',
+    landmark: 'Yadrav - Ichalkaranji Road',
+    latitude: 16.7110,
+    longitude: 74.4980,
+    popularStreams: ['Computer Science', 'Mechatronics', 'Civil', 'Electrical', 'AI & ML'],
+    establishedYear: 2009,
+    description: 'High-tech engineering campus in Yadrav near Ichalkaranji, featuring modern student hostels, private apartments, and dining options.',
+    logo: '/images/colleges/sharad-institute.png'
+  }
+];
