@@ -1,4 +1,4 @@
-# CampusNest — Kolhapur Student Living Finder
+# CampusNest — Kolhapur Student Living Finde
 
 > **Hackathon MVP**: Empowering students and parents joining engineering colleges in Kolhapur, Maharashtra (DYPCET, DOT Shivaji University, KITCoEK, and SETI) to discover realistic accommodations and student messes, compare total monthly living expenses, and avoid unexpected financial surprises before moving to the city.
 
@@ -201,3 +201,5 @@ CampusNest is pre-architected for Google Cloud Firestore. To connect live data:
 4. Replace `mockDataService.ts` with `firestoreService.ts` implementing `IAccommodationRepository`, `ICollegeRepository`, and `IMessRepository`.
 5. Since all components and the recommendation engine consume repository interfaces, **zero UI or algorithm changes are needed!**
 
+#   C a m p u s N e s t K o l h a p u r  
+ 
